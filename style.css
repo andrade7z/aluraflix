@@ -1,1 +1,16 @@
-body{
+body {
+    color: aqua;
+    background-color: rgb(168, 30, 168);
+}
+
+section {
+    background-color: black;
+    padding-bottom: ;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    
+}
