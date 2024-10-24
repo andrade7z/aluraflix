@@ -1,16 +1,59 @@
 body {
-    color: aqua;
-    background-color: rgb(168, 30, 168);
+    background: rgb(255, 0, 234);
+    color: rgb(0, 0, 0);
+    margin: 0opx;
+    font-family: "poppins", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px blueviolet rgb(42, , 122, rgb(255, 0, 64));
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(rgb(12, 146, 63), rgb(255, 0, 255), rgb(200, 255, 0));
 }
 
 section {
-    background-color: black;
-    padding-bottom: ;
-    padding-top: 0;
+    background-color: yellow;
+    padding-bottom: 80px;
+    padding-top: 80px;
     display: flex;
     justify-content: center;
 }
 
-div {
-    
+.chamada-texto {
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 40opx;
+}
+
+p {
+    font-size: 20opx;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-y: auto;
+    gap: 10x;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0,5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid green;
+}
+
+.categoria h2 {
+    color: aquamarine rgb(42, 122, 228)
 }
